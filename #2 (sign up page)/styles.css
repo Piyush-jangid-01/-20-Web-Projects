@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #0f1116;
+    border: 3px solid red;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background: #08081bb4;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    outline: 2px dotted grey;
+}
+
+header h2 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+#signup-form {
+    background: #04040c8c;
+    padding: 2rem;
+    border: 4px dashed grey;
+    color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 0px 8px darkslategrey;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+select {
+    height: 2.5rem;
+    line-height: 1.5;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+#form-message {
+    margin-top: 1rem;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    #signup-form {
+        padding: 1.5rem;
+    }
+
+    button {
+        padding: 0.5rem;
+    }
+}
